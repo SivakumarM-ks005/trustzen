@@ -2114,30 +2114,39 @@ section,
     margin-right: 55px;
   }
 }
+
 .modal-header {
   /* background: #173962; */
   padding: 5px 10px;
 }
+
 .modal-body {
-  background:#f8f8f8;
+  background: #f8f8f8;
 }
+
 .signup {
-  h5{
- font-family: var(--default-font);
-  }
-  
   display: grid;
   grid-template-columns: 50% 50%;
   gap: 10px;
-  label { 
-    font-size: 13px ;}
+
+  h5 {
+    font-family: var(--default-font);
+  }
+
+  label {
+    font-size: 13px;
+  }
+
   .form-control {
 
-    font-size: 13px;}
+    font-size: 13px;
+  }
 }
+
 .modal {
-    --bs-modal-width: 800px !important;
+  --bs-modal-width: 800px !important;
 }
+
 @media(max-width: 768px) {
   .banner-area {
     display: grid;
@@ -2187,49 +2196,62 @@ section,
     display: grid;
     grid-template-columns: 100%;
   }
+
   .package-details {
     & .list-group {
-        & .list-group-item {
-          grid-template-columns: 7% 25% 50% 18%;
-          &:first-child {
-            display: grid;
-            grid-template-columns: 32% 50% 18%;
-          }
-          .mobile-comp {
-            display: none;
-          }
-            .component {
-                font-size: 13px;
-                padding-left: 00px;
-            }
-                        .subcomponent {
-                padding-left: 0px;
-            }
-            .form-check {
-              padding-left: 25px; 
-            }
+      & .list-group-item {
+        grid-template-columns: 7% 25% 50% 18%;
+
+        &:first-child {
+          display: grid;
+          grid-template-columns: 32% 50% 18%;
         }
-        & .list-group-item:nth-child(7){
-           grid-template-columns: 82% 18%;
-           &:first-child{
-            display: none;
-           } &:nth-child(2){
-            display: none;
-           }
+
+        .mobile-comp {
+          display: none;
         }
-        .mobile-grid {
-          grid-template-columns: 82% 18% !important;
+
+        .component {
+          font-size: 13px;
+          padding-left: 00px;
         }
+
+        .subcomponent {
+          padding-left: 0px;
+        }
+
+        .form-check {
+          padding-left: 25px;
+        }
+      }
+
+      & .list-group-item:nth-child(7) {
+        grid-template-columns: 82% 18%;
+
+        &:first-child {
+          display: none;
+        }
+
+        &:nth-child(2) {
+          display: none;
+        }
+      }
+
+      .mobile-grid {
+        grid-template-columns: 82% 18% !important;
+      }
     }
-    .signup {
-  grid-template-columns: 100%;
-}
-}
-.footer .copyright p {
+
+    
+  }
+
+  .footer .copyright p {
     margin-bottom: 0;
     font-size: 10px;
-}
+  }
 
+.signup {
+      grid-template-columns: 100%;
+    }
 
-  
 }
