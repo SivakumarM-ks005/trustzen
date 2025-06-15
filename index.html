@@ -9,7 +9,7 @@
   <meta name="keywords" content="">
 
   <!-- Favicons -->
-  <link href="assets/img/favicon.png" rel="icon">
+  <link href="assets/img/favicon.ico" rel="icon">
   <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
 
   <!-- Fonts -->
@@ -84,7 +84,7 @@
           <div class="caption-cta">
             <h1>Customize Your Deal</h1>
             <h2><span>Select the Packages</span> Today!</h>
-              <div class="d-flex justify-content-between mt-5" style="    margin-right: 55px;">
+              <div class="cta-btn">
                 <a class="btn-orange"  data-bs-toggle="modal" data-bs-target="#exampleModal">Signup Now!</a>
                 <a class="btn-blue" href="index.html#book-a-table">Download Brochure</a>
               </div>
@@ -165,19 +165,64 @@
     </div>
 
   </footer>
-<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true" >
   <div class="modal-dialog">
-    <div class="modal-content">
+    <div class="modal-content ps-2 pe-3">
       <div class="modal-header">
-        <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+        <h5 class="modal-title" id="exampleModalLabel">Signup</h5>
         <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
       </div>
       <div class="modal-body">
-        ...
+     <form>
+      <div class="signup">
+        <div class="d-flex align-items-center ">
+        <div class="form-check form-check-inline pt-2">
+  <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio1" value="option1">
+  <label class="form-check-label" for="inlineRadio1" style="font-size: 18px;">Individual
+</label>
+</div>
+<div class="form-check form-check-inline pt-2">
+  <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio2" value="option2">
+  <label class="form-check-label" for="inlineRadio2" style="font-size: 18px;">Enterprise
+</label>
+</div>
+</div>
+  <div class="form-group">
+    <label for="exampleInputEmail1">Name</label>
+    <input type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter Name">
+  </div>
+  <div class="form-group">
+    <label for="exampleInputPassword1">Designation</label>
+    <input type="text" class="form-control" id="exampleInputPassword1" placeholder="Enter Designation">
+  </div>
+    <div class="form-group">
+    <label for="exampleInputPassword1">Company</label>
+    <input type="text" class="form-control" id="exampleInputPassword1" placeholder="Enter Company">
+  </div>
+      <div class="form-group">
+    <label for="exampleInputPassword1">Email ID</label>
+    <input type="email" class="form-control" id="exampleInputPassword1" placeholder="Enter Email ID">
+  </div>
+       <div class="form-group">
+    <label for="exampleInputPassword1">Phone #</label>
+    <input type="text" class="form-control" id="exampleInputPassword1" placeholder="Enter Phone #">
+  </div>
+         <div class="form-group">
+    <label for="exampleInputPassword1">Employee Strength</label>
+    <input type="text" class="form-control" id="exampleInputPassword1" placeholder="Enter Employee Strength">
+  </div>
+           <div class="form-group">
+    <label for="exampleInputPassword1">Potential Volume</label>
+    <input type="text" class="form-control" id="exampleInputPassword1" placeholder="Enter Potential Volume">
+  </div>
+ 
+  </div>
+ 
+</form>
       </div>
       <div class="modal-footer">
         <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-        <button type="button" class="btn btn-primary">Save changes</button>
+        <button type="button" class="btn btn-primary">Submit</button>
       </div>
     </div>
   </div>
