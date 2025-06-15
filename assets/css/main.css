@@ -2110,8 +2110,11 @@ section,
   justify-content: space-between;
   margin-top: 50px;
 
-  & a:nth-child(2) {
+  a:nth-child(2) {
     margin-right: 55px;
+    &:hover {
+       margin-right: 55px;
+    }
   }
 }
 
@@ -2250,8 +2253,6 @@ section,
     font-size: 10px;
   }
 
-.signup {
-      grid-template-columns: 100%;
-    }
+
 
 }
