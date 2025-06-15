@@ -2221,14 +2221,15 @@ section,
           grid-template-columns: 82% 18% !important;
         }
     }
+    .signup {
+  grid-template-columns: 100%;
+}
 }
 .footer .copyright p {
     margin-bottom: 0;
     font-size: 10px;
 }
 
-.signup {
-  grid-template-columns: auto;
-}
+
   
 }
